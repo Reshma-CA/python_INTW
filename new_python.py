@@ -1,20 +1,20 @@
 
 
 
-# class Calculator:
-#     def __init__(self,num1,num2):
-#         self.num1 = num1
-#         self.num2 = num2
+class Calculator:
+    def __init__(self,num1,num2):
+        self.num1 = num1
+        self.num2 = num2
 
-#     def Addition(self):
-#         addition = self.num1+self.num2
-#         print(f"Addition :{addition}")
+    def Addition(self):
+        addition = self.num1+self.num2
+        print(f"Addition :{addition}")
 
-#     def Subtraction(self):
-#         subtract = self.num1-self.num2
-#         print(f"Subtraction :{subtract}")
-# obj = Calculator(12,3)
-# obj.Addition()
+    def Subtraction(self):
+        subtract = self.num1-self.num2
+        print(f"Subtraction :{subtract}")
+obj = Calculator(12,3)
+obj.Addition()
 
 ###############################################################
 
