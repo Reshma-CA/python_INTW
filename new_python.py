@@ -94,7 +94,17 @@ print(str7.isspace())
 remove_space = " Reshma   "
 print("My name is ",remove_space.strip())
 
+str22 = "Hai world"
+new_str = str22.replace("Hai","Hello")
+print(new_str)
 
+new_strr = "Hello my name is Reshma"
+after_split = new_strr.split(" ")
+print(after_split)
+
+new_strrr = ("Hello","Python","world")
+after_joint = " ".join(new_strrr)
+print(after_joint)
 
 
 
